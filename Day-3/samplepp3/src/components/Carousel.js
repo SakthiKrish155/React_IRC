@@ -1,43 +1,34 @@
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 function slides(){
   return(
-    <div class="img-container">
-      <div class="box">
-        <img
-          src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=740&t=st=1692617800~exp=1692618400~hmac=da967fd7227c9ad38cd8a070b995acb5f4bb6c2185c6a20bd2e90c60e2abf6ab"
-          alt=""
-        />
-      </div>
-      <div class="box">
-        <img
-          src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=740&t=st=1692617800~exp=1692618400~hmac=da967fd7227c9ad38cd8a070b995acb5f4bb6c2185c6a20bd2e90c60e2abf6ab"
-          alt=""
-        />
-      </div>
-      <div class="box">
-        <img
-          src="https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg?w=740&t=st=1692619142~exp=1692619742~hmac=cbfd96c2635889371b9d74ff41432f9944fadfef177e121f43cf9f2f94b2fd6a"
-          alt=""
-        />
-      </div>
-      <div class="box">
-        <img
-          src="https://img.freepik.com/free-photo/seljalandsfoss-waterfall-during-sunset-beautiful-waterfall-iceland_335224-596.jpg?w=740&t=st=1692619874~exp=1692620474~hmac=c48ffd5f0d2418bb4600d98ac64f3f61a0ed9e2090751ac7fa32bff35687ee17"
-          alt=""
-        />
-      </div>
-      <div class="box">
-        <img
-          src="https://img.freepik.com/free-photo/landscape-morning-fog-mountains-with-hot-air-balloons-sunrise_335224-794.jpg?w=740&t=st=1692619958~exp=1692620558~hmac=d2e0e7c3c55857d0bb617b4b5b4deb0c7c67c6677c1eaa8b4c73d50445ece5bf"
-          alt=""
-        />
-      </div>
-      <div class="box">
-        <img
-          src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=740&t=st=1692617800~exp=1692618400~hmac=da967fd7227c9ad38cd8a070b995acb5f4bb6c2185c6a20bd2e90c60e2abf6ab"
-          alt=""
-        />
-      </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://media.istockphoto.com/id/1047570732/vector/english.jpg?s=612x612&w=0&k=20&c=zgafUJxCytevU-ZRlrZlTEpw3mLlS_HQTIOHLjaSPPM=" class="d-blockw-100" alt="english"/>
     </div>
+    <div class="carousel-item">
+      <img src="https://www.languagemagazine.com/wp-content/uploads/2019/07/french2.jpg" class="d-blockw-100" alt="french" id = "french"/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.kopykitab.com/blog/wp-content/uploads/2022/05/image-5.png" class="d-blockw-100" alt="german"/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.ubitto.com/mcontent/uploads/2019/10/cvxcv.jpg" class="d-blockw-100" alt="korean"/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://blog.keatschinese.com/wp-content/uploads/2020/12/learning-the-chinese-language.jpg" class="d-blockw-100" alt="chinese"/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
   )
 }
 export default slides;

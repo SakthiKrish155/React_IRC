@@ -1,8 +1,7 @@
 function Name(){
     return (
         <div>
-            <textarea class = 'search' placeholder='search tutorials'></textarea>
-            <button>Search</button>
+            <p id = 'select' >Select the language you want to learn</p>
         </div>
     )
 }

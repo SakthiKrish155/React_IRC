@@ -11,12 +11,12 @@ function App() {
   return (
     <div>
       <Nav/>
-      <h1 style={{marginTop:'5cm', marginLeft:'13cm',color:'Black',textDecorationThickness:'10cm',textUnderlineOffset:'5%'}}>
+      <h1 style={{marginTop:'3cm', marginLeft:'12cm',color:'Black',FontFace:'Lucid Sans'}}>
       Hello Language Learners
       </h1>
       <img src={Img} alt='languages in the world' style={{opacity:'10%',height:'100%',width:'35.25cm',objectFit:'cover'}} class= 'img'/>
       <Name/>
-      <Carousel/>
+    <Carousel/>
     </div>
   )
 }
