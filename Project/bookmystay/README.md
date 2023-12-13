@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+SojournQuest - Hotel Booking App
+SojournQuest is an intuitive and feature-rich hotel booking application designed to provide users with access to exclusive hotels offering top-notch facilities at affordable prices.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Exclusive Hotel Selection: Access a curated collection of premium hotels known for their exceptional facilities and services.
+Affordable Pricing: Experience luxury without breaking the bank; find the best deals and prices for your stay.
+Comprehensive Search: Easily search for hotels based on location, amenities, pricing, and more.
+Booking Management: Seamlessly manage your bookings, cancellations, and modifications within the app.
+User-Friendly Interface: Enjoy a clean and intuitive interface for a smooth user experience.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+Home:
+![Screenshot 2023-12-13 151350](https://github.com/SakthiKrish155/React_IRC/assets/125114424/2ea07285-f277-45e0-a3f0-cafd04a4ec8e)
+SignIn:
+![Screenshot 2023-12-13 151357](https://github.com/SakthiKrish155/React_IRC/assets/125114424/eb5dd2e6-1357-43b2-80ce-ba998bad7f1d)
+SignUp:
+![Screenshot 2023-12-13 151404](https://github.com/SakthiKrish155/React_IRC/assets/125114424/869c90b8-93d0-4166-b1da-3c40e345c260)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
