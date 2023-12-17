@@ -1,0 +1,228 @@
+body{
+    margin:0;
+}
+.navbar {
+    background-color: #4d3100;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    opacity:90%;
+    margin-top:0;
+    padding: 0 0 0 0 ; 
+    z-index:1;
+}
+
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    color:  #dbdbb6;
+}
+
+.app-name {
+    margin-left: 2.5cm;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.links {
+    display:block;
+    justify-content: flex-end;
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 20px;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links a:hover {
+    color: #ddd;
+    transition: 0.3s;
+}
+
+.logout
+{
+    justify-content: space-around;
+    padding:10px;
+}
+.container-fluid
+{
+    left:10;
+    position: absolute;
+}
+
+.imglogo
+{
+    height:1.6cm;
+    width:1.6cm;
+    margin-top:4px;
+    position:relative;
+}
+.main
+{
+    margin-top:0;
+}
+.image
+{
+    background-image: url("C:\Users\srisa\OneDrive\Documents\GitHub\React_IRC\Project\bookmystay\src\Assets\Images\Luxury-camping-Ladakh-Chamba-Camp-Thiksey-Leh-55-1024x684.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:fixed;
+    width:100%;
+    height: 100vh;
+}
+.t1
+{
+    margin-left: 20%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.t2{
+     margin-left: 20%;
+    color:white ;
+    font-size: 1.5em;
+    
+}
+.dropdown-position {
+    position: absolute; 
+    z-index: 1000; 
+}
+/* Your modified CSS */
+body {
+    margin: 0;
+}
+
+/* ... other existing styles ... */
+
+.navbar {
+    background-color: #4d3100;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    opacity: 90%;
+    margin-top: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    color: #dbdbb6;
+}
+
+.app-name {
+    margin-left: 2.5cm;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 20px;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links a:hover {
+    color: #ddd;
+    transition: 0.3s;
+}
+
+.imglogo {
+    height: 1.6cm;
+    width: 1.6cm;
+    margin-top: 4px;
+    position: relative;
+}
+
+/* Add these styles to your existing CSS file or create a new one for dropdown styles */
+
+/* Dropdown button */
+.menuToggle label {
+    display: block;
+    cursor: pointer;
+}
+
+.menuToggle {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px; /* Adjust as needed */
+  }
+
+
+.menuToggle input:checked ~ .menuItem {
+    display: block; /* Show the dropdown when the checkbox is checked */
+}
+
+  
+  /* Hamburger icon styling */
+  .menuToggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  /* Menu items */
+  .menuItem {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+  
+  /* Show the menu when checkbox is checked */
+  .menuToggle input:checked ~ .menuItem {
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+  
+  /* Show the hamburger icon as a button */
+  .menuToggle input {
+    display: none;
+  }
+  
+  /* Adjust appearance of links in the dropdown */
+  .menuItem li {
+    margin-bottom: 8px;
+  }
+  
+  .menuItem li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menuItem li a:hover {
+    color: #ff4500; /* Change color on hover as needed */
+  }
+  

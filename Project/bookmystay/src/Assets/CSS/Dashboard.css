@@ -1,0 +1,80 @@
+.dashboard-main {
+    background-color: beige;
+    padding: 0px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.dashboard-actions {
+    margin: 0 ;
+    max-width: 1200px;
+}
+
+.dashboard-data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category-wrapper {
+    width: 100%;
+}
+
+.category-container {
+    width: calc(15%); /* Adjust width as needed */
+    background-color: #5f410d;
+    padding: 10px;
+    color: beige;
+}
+
+.category-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.category-title {
+    font-size: 24px;
+    color: rgb(242, 222, 205); /* Change this color to your desired color */
+    text-decoration: none;
+    
+}
+.category-button
+{
+    text-decoration: none;
+}
+/* Existing styles */
+.dashboard-main {
+    background-color: beige;
+    padding: 0;
+    margin-top: 0;
+}
+
+/* ... other styles ... */
+
+.category-container {
+    width: calc(15%);
+    background-color: #5f410d;
+    padding: 10px;
+    color: beige;
+}
+
+.category-title {
+    font-size: 20px;
+    color: rgb(242, 222, 205);
+    text-decoration: none;
+}
+
+.category-button {
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.category-button:hover {
+    background-color: #745417;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+}

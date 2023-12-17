@@ -1,7 +1,7 @@
   import React, { useState } from 'react';
 import SignUp from './SignUp';
 import {Link} from 'react-router-dom';
-
+// import { useAuth } from './AuthContext';
 
   const SignIn = () => {
     const [username, setUsername] = useState('');
@@ -13,9 +13,9 @@ import {Link} from 'react-router-dom';
       // Check credentials (demo purpose)
       if (username === 'demo' && password === 'password') {
         // Redirect to home page (or any other page)
-        window.location.href = '/';
+        window.location.href = '/main';
       } else {
-        setError('Invalid username or password');
+        setError(alert("Invalid Username / Password"));
       }
     };
 
@@ -30,8 +30,7 @@ import {Link} from 'react-router-dom';
               id = "username"
               placeholder="Username"
               value={username}
-              onChange={(e) => setUsername(e.target.value)}
-            />
+              onChange={(e) => setUsername(e.target.value)}/>
             <input
               type="password"
               id = "password"
@@ -48,7 +47,7 @@ import {Link} from 'react-router-dom';
       </div>
       <div class = "img">
       </div>
-      </>
+      </> 
     );
   };
 

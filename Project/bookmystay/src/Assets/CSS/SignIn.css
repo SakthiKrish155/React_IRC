@@ -65,7 +65,7 @@ body {
   }
   
   .error-message {
-    color: red;
+    color: rgb(255, 252, 252);
     margin-top: 10px;
   }
 
