@@ -4,8 +4,7 @@
 import TempComp from './Components/form';
 function App() {
   return (
-    <>
-     
+    <>    
       <TempComp/>
     </>
   );
