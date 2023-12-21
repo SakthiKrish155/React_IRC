@@ -9,7 +9,7 @@
     border-radius: 10px; /* Rounded corners */
     width: 400px; /* Adjust width as needed */
     margin: 20px auto; /* Center the form */
-    margin-top: 5px;
+    margin-top: 60px;
 }
 
 .signup-form {
@@ -44,10 +44,10 @@
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    width: 10cm;
+    width: 9cm;
     font-family: monospace;
     margin-top: 1%;
-    margin-left:3%;
+    margin-left: 5%;
 }
 
 .signup-form button:hover {
@@ -62,8 +62,10 @@
 .google-btn,
 .facebook-btn {
     margin: 5px;
-    padding: 8px 16px;
+    padding: 8px 18px;
     border: none;
+    height: 40px;
+    width: 250px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 14px;
@@ -119,7 +121,7 @@ p{
     border: 1px solid #8B4513; /* Brown border for inputs */
     font-size: 16px;
     padding-left:90px ;
-    width: 20cm; /* Adjust width as needed */
+    width: 40cm; /* Adjust width as needed */
     height: 16px; /* Adjust height as needed */
     color: black;
 }
@@ -128,6 +130,7 @@ p{
     border: 1px solid #8B4513; /* Brown border for inputs */
     font-size: 16px;
     padding-top:0px;
+    color: black;
     height: 1cm; /* Adjust height as needed */
 }
 

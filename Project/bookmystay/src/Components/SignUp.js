@@ -22,7 +22,7 @@
                     <label htmlFor="phone">Phone Number:</label>
                     <input type="tel" id="phone" name="phone" placeholder="123-456-7890" />
 
-                    <Link to = "/main" element = {<SignUp/>}><button type="submit" class = "signup">Sign Up</button></Link>
+                    <Link to = "/" element = {<SignUp/>}><button type="submit" class = "signup">Sign Up</button></Link>
                 </form>
                 <div className="alternative-signup">
                     <p>Or sign up using:</p>

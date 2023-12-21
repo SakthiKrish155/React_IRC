@@ -15,7 +15,7 @@ const Home = () => {
           </div>
           <ul className="user-links">
             <li className="signin"><Link to="/signin">SignIn</Link></li>
-            <li className="logout"><Link to="/logout">Logout</Link></li>
+            {/* <li className="logout"><Link to="/logout">Logout</Link></li> */}
           </ul>
         </nav>
         {/* <div class = "resortdiv">

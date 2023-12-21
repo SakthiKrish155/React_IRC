@@ -1,21 +1,42 @@
-  import React, { useState } from 'react';
+import React, { useState } from 'react';
 import SignUp from './SignUp';
 import {Link} from 'react-router-dom';
-// import { useAuth } from './AuthContext';
+import {toast ,ToastContainer} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
   const SignIn = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const [error, setError] = useState('');
+    // const [error, setError] = useState('');
 
     const handleSignIn = (e) => {
       e.preventDefault();
       // Check credentials (demo purpose)
       if (username === 'demo' && password === 'password') {
-        // Redirect to home page (or any other page)
-        window.location.href = '/main';
+        toast.success('Welcome👋', {
+          position: 'top-center',
+          autoClose: 1000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: 'dark',
+        });
+        setTimeout(() => {
+          window.location.href = '/';
+        }, 2000); 
       } else {
-        setError(alert("Invalid Username / Password"));
+        toast.error('Invalid Username / Password', {
+          position: 'top-center',
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: 'dark',
+        });
       }
     };
 
@@ -23,7 +44,7 @@ import {Link} from 'react-router-dom';
       <>
       <div className="signin-container">
         <div className="signin-form">
-          <h1>Sign In</h1>
+          <h1 class ="sin">Sign In</h1>
           <form onSubmit={handleSignIn}>
             <input
               type="text"
@@ -42,11 +63,23 @@ import {Link} from 'react-router-dom';
             <br/>   
             <Link to = "/signup" element = {<SignUp/>} style={{color:"White"}}>Not Registered yet?</Link>
           </form>
-          {error && <p className="error-message">{error}</p>}
+          {/* {error && <p className="error-message">{error}</p>} */}
         </div>
       </div>
       <div class = "img">
       </div>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
       </> 
     );
   };

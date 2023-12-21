@@ -7,7 +7,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5f5dc; /* Beige background */
   }
-  
+  .sin{
+    color: antiquewhite;
+  }
   /* Sign-in container */
   .signin-container {
     display: flex;
