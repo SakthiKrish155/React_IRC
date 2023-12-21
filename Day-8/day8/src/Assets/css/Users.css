@@ -1,0 +1,41 @@
+/* Style for the table */
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20%;
+    border-color: black;
+    
+}
+table{
+    border: 1px solid;
+}
+/* Style for table header */
+th {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 20px;
+    /* border:solid; */
+}
+/* Style for table cells */
+td {
+    /* border: solid; */
+    padding: 18px;
+    color: black;
+}
+
+/* Style for buttons */
+button {
+    padding: 5px 8px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: #1970a9;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
