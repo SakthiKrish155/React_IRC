@@ -20,6 +20,7 @@ Home:
 
 SignIn:
 ![Screenshot 2023-12-13 151357](https://github.com/SakthiKrish155/React_IRC/assets/125114424/eb5dd2e6-1357-43b2-80ce-ba998bad7f1d)![Screenshot 2023-12-22 090816](https://github.com/SakthiKrish155/React_IRC/assets/125114424/82688f78-ede1-409f-84ff-c70dca74890c)
+![Screenshot 2023-12-22 092444](https://github.com/SakthiKrish155/React_IRC/assets/125114424/40f6af68-bf86-47f6-b09f-ad37a0c705ff)
 
 SignUp:
 ![Screenshot 2023-12-13 151404](https://github.com/SakthiKrish155/React_IRC/assets/125114424/869c90b8-93d0-4166-b1da-3c40e345c260)
