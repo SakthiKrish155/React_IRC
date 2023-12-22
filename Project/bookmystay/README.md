@@ -1,4 +1,4 @@
-![Screenshot 2023-12-22 090919](https://github.com/SakthiKrish155/React_IRC/assets/125114424/3cca1b42-844e-435e-a91d-1893d9cd9448)SojournQuest - Hotel Booking App
+SojournQuest - Hotel Booking App
 SojournQuest is an intuitive and feature-rich hotel booking application designed to provide users with access to exclusive hotels offering top-notch facilities at affordable prices.
 
 Features
@@ -27,6 +27,6 @@ SignUp:
 Dashboard:
 ![Screenshot 2023-12-22 090857](https://github.com/SakthiKrish155/React_IRC/assets/125114424/2049be78-8637-4475-b1fc-f6ea147899ac)
 ![Screenshot 2023-12-22 090909](https://github.com/SakthiKrish155/React_IRC/assets/125114424/9c0743b3-b3a1-4a04-888c-650354a65859)
-![Uploading Scr![Screenshot 2023-12-22 090930](https://github.com/SakthiKrish155/React_IRC/assets/125114424/9f3b8146-964c-44c3-8e53-7b544932fcf7)
-eenshot 2023-12-22 090919.png…]()
+![Screenshot 2023-12-22 090930](https://github.com/SakthiKrish155/React_IRC/assets/125114424/5e423453-7a7b-4f76-99f3-578f745e706b)
+
 
