@@ -27,6 +27,7 @@ SignUp:
 Dashboard:
 ![Screenshot 2023-12-22 090857](https://github.com/SakthiKrish155/React_IRC/assets/125114424/2049be78-8637-4475-b1fc-f6ea147899ac)
 ![Screenshot 2023-12-22 090909](https://github.com/SakthiKrish155/React_IRC/assets/125114424/9c0743b3-b3a1-4a04-888c-650354a65859)
+![Screenshot 2023-12-22 090919](https://github.com/SakthiKrish155/React_IRC/assets/125114424/a8b27df0-156f-482b-89e7-9d6a096380e2)
 ![Screenshot 2023-12-22 090930](https://github.com/SakthiKrish155/React_IRC/assets/125114424/5e423453-7a7b-4f76-99f3-578f745e706b)
 
 
