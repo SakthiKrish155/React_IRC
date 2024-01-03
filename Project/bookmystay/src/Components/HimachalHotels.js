@@ -2,10 +2,14 @@ import logoImage from '../Assets/Images/logo2.png'
 import Dashboard from './Dashboard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faGear, faAddressBook ,faStar,faStarHalfStroke} from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 import '../Assets/CSS/Nav.css'
 import '../Assets/CSS/Cards.css'
 
 const HimachalHotel = () => {
+    const handlebook = () => {
+        window.location.href = '/form'
+    }
     return (
         <>
             <div class="main">
@@ -16,9 +20,9 @@ const HimachalHotel = () => {
                             <span class="sq">SojournQuest</span>
                         </div>
                         <div class="nav-listpage">
-                            <li class="signinpage" id="profile"><FontAwesomeIcon icon={faUser} size='2x' color='beige' /></li>
-                            <li class="signinpage"><FontAwesomeIcon icon={faAddressBook} size='2x' color='beige' /></li>
-                            <li class="signinpage"><FontAwesomeIcon icon={faGear} size='2x' color='beige' /></li>
+                        <li class="signinpage" id="profile"><Link to = "/profile"><FontAwesomeIcon icon={faUser} size='2x' color='beige' /></Link></li>
+                            <li class="signinpage"><Link to = "/account"><FontAwesomeIcon icon={faAddressBook} size='2x' color='beige' /></Link></li>
+                            <li class="signinpage"><Link to = "/setting"><FontAwesomeIcon icon={faGear} size='2x' color='beige' /></Link></li>
                         </div>
                     </nav>
                 </div>
@@ -57,7 +61,7 @@ const HimachalHotel = () => {
                                             </div>
                                         </div>
                                         <div className="right-align">
-                                            <button className="btn-primary" style={{ fontFamily: 'verdana' }}>
+                                            <button className="btn-primary" style={{ fontFamily: 'verdana' }} onClick={handlebook}>
                                                 Book Now
                                             </button>
                                         </div>

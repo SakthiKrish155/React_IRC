@@ -10,6 +10,7 @@ import SignIn from "./Components/SignIn";
 import './Assets/CSS/SignIn.css'
 import {Routes, Route,} from 'react-router-dom';
 
+import Form from './Components/Form';
 import Himachal from "./Components/Himachal";
 import HimachalHotel from "./Components/HimachalHotels";
 import HimachalResorts from "./Components/HimachalResorts";
@@ -41,6 +42,7 @@ function App() {
             {/* <Route path="/main" element={<Main/>} /> */}
             <Route path="/signup" element={<SignUp />} />
             <Route path="/signin" element={<SignIn />} />
+            <Route path = "/form" element={<Form/>}/>
 
             <Route path ="/himachal" element = {<Himachal/>}/>
             <Route path ="/himachalhotels" element = {<HimachalHotel/>}/>

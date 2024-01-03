@@ -1,7 +1,8 @@
 import logoImage from '../Assets/Images/logo2.png'
 import BaliDashboard from './BaliDashboard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faGear, faAddressBook ,faStar,faStarHalfStroke} from '@fortawesome/free-solid-svg-icons';
+import { faUser, faGear, faAddressBook, faStar, faStarHalfStroke } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 import '../Assets/CSS/Nav.css'
 import '../Assets/CSS/Cards.css'
 
@@ -16,9 +17,9 @@ const BaliVillas = () => {
                             <span class="sq">SojournQuest</span>
                         </div>
                         <div class="nav-listpage">
-                            <li class="signinpage" id="profile"><FontAwesomeIcon icon={faUser} size='2x' color='beige' /></li>
-                            <li class="signinpage"><FontAwesomeIcon icon={faAddressBook} size='2x' color='beige' /></li>
-                            <li class="signinpage"><FontAwesomeIcon icon={faGear} size='2x' color='beige' /></li>
+                            <li class="signinpage" id="profile"><Link to="/profile"><FontAwesomeIcon icon={faUser} size='2x' color='beige' /></Link></li>
+                            <li class="signinpage"><Link to="/account"><FontAwesomeIcon icon={faAddressBook} size='2x' color='beige' /></Link></li>
+                            <li class="signinpage"><Link to="/setting"><FontAwesomeIcon icon={faGear} size='2x' color='beige' /></Link></li>
                         </div>
                     </nav>
                 </div>
@@ -28,7 +29,7 @@ const BaliVillas = () => {
                     </div>
                 </div>
                 <div class="cards">
-                    <h2 class = "hotelscard">Top 5 Villas Suggested</h2>
+                    <h2 class="hotelscard">Top 5 Villas Suggested</h2>
                     <div className="wrapper">
                         <div className="booking-card-wrapper">
                             <div className="booking-card-image">
@@ -36,7 +37,7 @@ const BaliVillas = () => {
                                     className="booking-card-image"
                                     src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/214872045.jpg?k=0843e5ed5f91e2bd75c5aa311cf7b6877b6b2572a055c6969638ba022c34ddc3&o=&hp=1"
                                     alt="Booking Card"
-                                    style={{height:'5.5cm'}}
+                                    style={{ height: '5.5cm' }}
                                 />
                             </div>
                             <div className="booking-card-content">
@@ -49,11 +50,11 @@ const BaliVillas = () => {
                                         <div>
                                             <span className="price">₹70,000</span> per night*
                                             <div className="reviews">
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStarHalfStroke} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStarHalfStroke} />
                                                 <span className="amount">280 reviews</span>
                                             </div>
                                         </div>
@@ -89,11 +90,11 @@ const BaliVillas = () => {
                                         <div>
                                             <span className="price">₹50,500</span> per night*
                                             <div className="reviews">
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
                                                 <span className="amount">120 reviews</span>
                                             </div>
                                         </div>
@@ -118,7 +119,7 @@ const BaliVillas = () => {
                                     className="booking-card-image"
                                     src="https://aw-d.tripcdn.com/images/0582x12000cdpbc1400A0.jpg"
                                     alt="Booking Card"
-                                    style={{height:'5.5cm'}}
+                                    style={{ height: '5.5cm' }}
                                 />
                             </div>
                             <div className="booking-card-content">
@@ -131,10 +132,10 @@ const BaliVillas = () => {
                                         <div>
                                             <span className="price">₹80,000</span> per night*
                                             <div className="reviews">
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStarHalfStroke} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStarHalfStroke} />
                                                 <span className="amount">90 reviews</span>
                                             </div>
                                         </div>
@@ -158,7 +159,7 @@ const BaliVillas = () => {
                                     className="booking-card-image"
                                     src="https://q-xx.bstatic.com/xdata/images/hotel/max500/253353450.jpg?k=6e2712bd71b5c1a18481b58824bcc39fac3d12de950f60bbfe9bdbeef1807780&o="
                                     alt="Booking Card"
-                                    style={{height:'5.5cm'}}
+                                    style={{ height: '5.5cm' }}
                                 />
                             </div>
                             <div className="booking-card-content">
@@ -171,11 +172,11 @@ const BaliVillas = () => {
                                         <div>
                                             <span className="price">₹60,500</span> per night*
                                             <div className="reviews">
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStarHalfStroke} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStarHalfStroke} />
                                                 <span className="amount">150 reviews</span>
                                             </div>
                                         </div>
@@ -199,7 +200,7 @@ const BaliVillas = () => {
                                     className="booking-card-image"
                                     src="https://oimages.elitehavens.com/images/gallery/mobile/Zelie/09-Villa%20Zelie%20-%20Master%20bedroom.jpg"
                                     alt="Booking Card"
-                                    style={{height:'5.5cm'}}
+                                    style={{ height: '5.5cm' }}
                                 />
                             </div>
                             <div className="booking-card-content">
@@ -212,11 +213,11 @@ const BaliVillas = () => {
                                         <div>
                                             <span className="price">₹40,000</span> per night*
                                             <div className="reviews">
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStar} />
-                                            <FontAwesomeIcon icon={faStarHalfStroke} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStarHalfStroke} />
                                                 <span className="amount">100 reviews</span>
                                             </div>
                                         </div>

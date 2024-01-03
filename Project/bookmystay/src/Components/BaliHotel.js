@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faGear, faAddressBook ,faStar,faStarHalfStroke} from '@fortawesome/free-solid-svg-icons';
 import '../Assets/CSS/Nav.css'
 import '../Assets/CSS/Cards.css'
+import { Link } from 'react-router-dom';
 
 const BaliHotels = () => {
     return (
@@ -16,9 +17,9 @@ const BaliHotels = () => {
                             <span class="sq">SojournQuest</span>
                         </div>
                         <div class="nav-listpage">
-                            <li class="signinpage" id="profile"><FontAwesomeIcon icon={faUser} size='2x' color='beige' /></li>
-                            <li class="signinpage"><FontAwesomeIcon icon={faAddressBook} size='2x' color='beige' /></li>
-                            <li class="signinpage"><FontAwesomeIcon icon={faGear} size='2x' color='beige' /></li>
+                        <li class="signinpage" id="profile"><Link to = "/profile"><FontAwesomeIcon icon={faUser} size='2x' color='beige' /></Link></li>
+                            <li class="signinpage"><Link to = "/account"><FontAwesomeIcon icon={faAddressBook} size='2x' color='beige' /></Link></li>
+                            <li class="signinpage"><Link to = "/setting"><FontAwesomeIcon icon={faGear} size='2x' color='beige' /></Link></li>
                         </div>
                     </nav>
                 </div>

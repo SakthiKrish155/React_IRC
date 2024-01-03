@@ -18,9 +18,9 @@ const Himachal = () => {
                             <span class="sq">SojournQuest</span>
                         </div>
                         <div class="nav-listpage">
-                            <li class="signinpage" id="profile"><FontAwesomeIcon icon={faUser} size='2x' color='beige' /></li>
-                            <li class="signinpage"><FontAwesomeIcon icon={faAddressBook} size='2x' color='beige' /></li>
-                            <li class="signinpage"><FontAwesomeIcon icon={faGear} size='2x' color='beige' /></li>
+                            <li class="signinpage" id="profile"><Link to = "/profile"><FontAwesomeIcon icon={faUser} size='2x' color='beige' /></Link></li>
+                            <li class="signinpage"><Link to = "/account"><FontAwesomeIcon icon={faAddressBook} size='2x' color='beige' /></Link></li>
+                            <li class="signinpage"><Link to = "/setting"><FontAwesomeIcon icon={faGear} size='2x' color='beige' /></Link></li>
                         </div>
                     </nav>
                 </div>

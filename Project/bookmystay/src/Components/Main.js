@@ -82,7 +82,7 @@ const Main = () => {
                 <Grid container spacing={2}>
                     <Grid item xs={6} md={4}>
                         <Item>
-                            <Card sx={{ maxWidth: 500, height: 380 }}>
+                            <Card sx={{ maxWidth: 500, height: 360 }}>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div" sx={{ fontFamily: 'monospace' }}>
                                         KARNATAKA
@@ -103,7 +103,7 @@ const Main = () => {
                     </Grid>
                     <Grid item xs={6} md={4}>
                         <Item>
-                            <Card sx={{ maxWidth: 900, height: 380 }}>
+                            <Card sx={{ maxWidth: 900, height: 360 }}>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div" sx={{ fontFamily: 'monospace' }}>
                                         HIMACHAL PRADHESH
@@ -124,7 +124,7 @@ const Main = () => {
                     </Grid>
                     <Grid item xs={6} md={4}>
                         <Item>
-                            <Card sx={{ maxWidth: 900, height: 380 }}>
+                            <Card sx={{ maxWidth: 900, height: 360 }}>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div" sx={{ fontFamily: 'monospace' }}>
                                         GOA
@@ -144,7 +144,7 @@ const Main = () => {
                         </Item>
                     </Grid>
                     <Grid item xs={6} md={4}>
-                        <Item><Card sx={{ maxWidth: 900, height: 380 }}>
+                        <Item><Card sx={{ maxWidth: 900, height: 360 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div" sx={{ fontFamily: 'monospace' }}>
                                     MANALI
@@ -163,7 +163,7 @@ const Main = () => {
                         </Card></Item>
                     </Grid>
                     <Grid item xs={6} md={4}>
-                        <Item><Card sx={{ maxWidth: 900, height: 380 }}>
+                        <Item><Card sx={{ maxWidth: 900, height: 360 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div" sx={{ fontFamily: 'monospace' }}>
                                     JAIPUR
@@ -182,7 +182,7 @@ const Main = () => {
                         </Card></Item>
                     </Grid>
                     <Grid item xs={6} md={4}>
-                        <Item><Card sx={{ maxWidth: 900, height: 380 }}>
+                        <Item><Card sx={{ maxWidth: 900, height: 360 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div" sx={{ fontFamily: 'monospace' }}>
                                     AGRA
@@ -207,7 +207,7 @@ const Main = () => {
                 <Grid container spacing={2}>
                     <Grid item xs={6} md={4}>
                         <Item>
-                            <Card sx={{ maxWidth: 500, height: 380 }}>
+                            <Card sx={{ maxWidth: 500, height: 360 }}>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div" sx={{ fontFamily: 'monospace' }}>
                                         MALDIVES
@@ -228,7 +228,7 @@ const Main = () => {
                     </Grid>
                     <Grid item xs={6} md={4}>
                         <Item>
-                            <Card sx={{ maxWidth: 900, height: 380 }}>
+                            <Card sx={{ maxWidth: 900, height: 360 }}>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div" sx={{ fontFamily: 'monospace' }}>
                                         BALI
@@ -249,7 +249,7 @@ const Main = () => {
                     </Grid>
                     <Grid item xs={6} md={4}>
                         <Item>
-                            <Card sx={{ maxWidth: 900, height: 380 }}>
+                            <Card sx={{ maxWidth: 900, height: 360 }}>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div" sx={{ fontFamily: 'monospace' }}>
                                         PARIS
@@ -269,7 +269,7 @@ const Main = () => {
                         </Item>
                     </Grid>
                     <Grid item xs={6} md={4}>
-                        <Item><Card sx={{ maxWidth: 900, height: 380 }}>
+                        <Item><Card sx={{ maxWidth: 900, height: 360 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div" sx={{ fontFamily: 'monospace' }}>
                                     JAPAN
@@ -288,7 +288,7 @@ const Main = () => {
                         </Card></Item>
                     </Grid>
                     <Grid item xs={6} md={4}>
-                        <Item><Card sx={{ maxWidth: 900, height: 380 }}>
+                        <Item><Card sx={{ maxWidth: 900, height: 360 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div" sx={{ fontFamily: 'monospace' }}>
                                     MACHU PICHU
@@ -307,7 +307,7 @@ const Main = () => {
                         </Card></Item>
                     </Grid>
                     <Grid item xs={6} md={4}>
-                        <Item><Card sx={{ maxWidth: 900, height: 380 }}>
+                        <Item><Card sx={{ maxWidth: 900, height: 360 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div" sx={{ fontFamily: 'monospace' }}>
                                     GREAT BARRIER REEF
